@@ -7,7 +7,7 @@
 body
 {
   min-height: 100vh;
-  background-image: url(https://cdn.glitch.global/3cb8f9cd-605f-4b6d-8366-6f1d59ee20bb/background.gif?v=1733447171583);
+  background-image: url(../background.gif);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
