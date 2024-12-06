@@ -1,0 +1,81 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  min-height: 100vh;
+  background-image: url(https://cdn.glitch.global/3cb8f9cd-605f-4b6d-8366-6f1d59ee20bb/background.gif?v=1733447171583);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header{
+  background-color: #0f0f0f;
+    /* Updated header background color to a shade in between #222 and #111 */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+  font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: green;
+}
+.navbar a{
+  position: relative;
+  font-weight: 500;
+  margin-left: 40px;
+  text-decoration: none;
+  color: red;
+  font-size: 40px;
+}
+.navbar a:hover{
+  background-color: green;
+    color: red;
+    border-radius: 22px;
+}
+.game-card {
+  display: inline-block;
+    position: relative;
+    width: 225px;
+    height: 130px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 0px 5px #000;
+    transition: border-color 0.3s ease;
+    margin: 5px;
+}
+.box-text{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 10, 10, 0.5);
+  color: blue;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align:justify;
+}
+.game-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.game-card:hover {
+  transform: scale(0.9);
+  z-index: 2;
+}
+.text {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
