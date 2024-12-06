@@ -51,7 +51,6 @@ body
     border: 2px solid transparent;
     box-shadow: 0 0px 5px #000;
     transition: border-color 0.3s ease;
-    margin: 5px;
 }
 .box-text{
   position: absolute;
