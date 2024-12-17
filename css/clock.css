@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+    font-weight: 10px;
+    align-items: center;
+}
+
+#countdown {
+    text-align: center;
+    font-weight: 10px;
+
+}
+
+#timer {
+    font-size: 50px;
+  color: black;
+  font-weight: 10px;
+}
