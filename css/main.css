@@ -47,8 +47,8 @@ body
 
 .game-card {
   display: inline-block;
-  width: 293px;
-  height: 150px;
+  width: 255px;
+  height: 120px;
   border-radius: 30px;
   overflow: hidden;
   position: relative;
@@ -120,6 +120,7 @@ body
   outline: none;
   display: flex;
   align-items: center;
+  border-radius: 30px;
   
 }
 
