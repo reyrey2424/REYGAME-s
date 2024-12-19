@@ -128,7 +128,6 @@ body
   outline: none;
   display: flex;
   align-items: center;
-  border-radius: 30px;
   
 }
 
@@ -145,12 +144,12 @@ body
   border-radius: 10px solid black ;
   outline: none;
   text-align: left;
-  width: 30vw;
   transition: 300ms;
   align-items: center;
   color: lightskyblue;
   font-size: 20px;
   font-weight: 100px;
+  border-radius: 30px;
   
 }
 .text {
