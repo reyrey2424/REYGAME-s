@@ -13,43 +13,51 @@ body
   background-size: cover;
 }
 .header{
-  background-color: black;
-    color: #fff;
-    padding: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  box-sizing: border-box;
+  background: black;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.35s ease;
+  border-radius: 20px;
+  width: fill;
+  margin: 15px 20px;
+  z-index: 100;
+  position: static; /* Position is static */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
 }
 .Logo{
   font-weight: bold;
     font-size: 40px;
     text-decoration: none;
-    color: lightskyblue;
+    color: darkgrey;
 }
 .navbar a{
   position: relative;
   font-weight: 500;
   margin-left: 40px;
   text-decoration: none;
-  color: lightskyblue;
+  color: darkgrey;
   font-size: 40px;
 }
 .Logo:hover{
-  background-color: lightskyblue;
+  background-color: darkgrey;
   color: black;
-  border-radius: 22px;
+  border-radius: 5px;
 }
 .navbar a:hover{
-  background-color: lightskyblue;
+  background-color: darkgrey;
   color: black;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .game-card {
   display: inline-block;
-  width: 180px;
-  height: 120px;
-  border-radius: 30px;
+  width: 252px;
+  height: 142px;
+  border-radius: 10px;
   overflow: hidden;
   position: relative;
   transition: all 300ms;
@@ -147,6 +155,6 @@ body
 }
 .text {
   font-size: 55px;
-  color: white;
+  color: darkgrey;
   text-align: center;
 }
