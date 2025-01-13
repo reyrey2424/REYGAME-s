@@ -102,7 +102,12 @@ body
 .game-card:hover .content {
   opacity: 1;
 }
-
+.NG {
+  font-size: 25px;
+  color: red;
+}
+.NG img {
+}
 .input-box {
   display: flex;
   align-items: center;
