@@ -52,20 +52,20 @@ body
 
 .game-card {
   display: inline-block;
-  width: 220px;
+  width: 215px;
   height: 150px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
   transition: all 300ms;
-  margin: 7px;;
+  margin: 3px;
 }
 
 .game-card:hover {
   transform: scale(0.9);
   z-index: 999999999;
   box-shadow: black;
-  border-color: darkgrey;
+  border-color: black;
 }
 
 .game-card:active{
@@ -133,12 +133,11 @@ body
 }
 
 #searchInput {
-  font-weight: 100;
   padding: 15px;
   font-size: 16px;
   background: transparent;
   border: solid black;
-  border-radius: 10px solid black ;
+  border-radius: 10px solid black;
   outline: none;
   text-align: left;
   transition: 300ms;
@@ -151,6 +150,6 @@ body
 }
 .text {
   font-size: 55px;
-  color: darkgrey;
+  color: black;
   text-align: center;
 }
