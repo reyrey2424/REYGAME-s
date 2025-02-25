@@ -1,6 +1,4 @@
 
-Terminal Command
-
 git add .
 
 git status
